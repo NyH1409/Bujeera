@@ -1,0 +1,62 @@
+.form-group{
+    margin-block: 5%;
+}
+
+.form-group input{
+    width: 300px;
+    background-color: rgba(128, 128, 128, 0.287);
+    padding-inline-start: 8px;
+}
+
+.form-group input:focus{
+   border: 2px solid green;
+}
+
+.form-container{
+    width: 500px;
+    padding-block: 5%;
+    margin: auto;
+    text-align: center;
+    margin-block: 10%;
+}
+
+.form-container form .submit-button{
+    width: 362px;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.form-container form .submit-button:hover{
+    color: white;
+    background-color: blue;
+    transition: 0.75s;
+}
+
+.form-container p{
+    margin-block: 5px;
+}
+
+.form-container p span:hover{
+    text-decoration: underline;
+}
+
+.chat-box{
+    display: flex;
+    gap: 3px;
+    justify-content: space-between;
+}
+
+.chat-box .members-container {
+    flex-basis: 25%;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+    padding-block: 2%;
+}
+
+.chat-box .chat-container {
+    flex-basis: 75%;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100vh;
+    padding: 1%;
+}
+
